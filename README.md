@@ -1,27 +1,29 @@
-# credit-module-angular
-
-INICIALIZACIÓN DE APLICATIVO
+# Guia para ejecutar el aplicativo
 
 
-* Abrimos nuestro editor de codigo preferido y miramos que se encuentre conectado con la terminal(IOS) o cmd(MAC) dependiendo del sistema operativo que uses.
-* verificar que se tenga angular-cli
-* ingresamos a la carpeta en la que tengamos el proyecto
-* ingresar el comando npm install para instalar todos los modulos ya que no se subieron
-* una vez instalados todos los modulos se ejecuta el comando ng serve para ejecutar el servido o ng serve -o para ejecutar el servidor y abrirlo automaticamente en el navegador
-* por lo general se abre la aplicacion en la ruta "http://localhost:4200"
 
-Inicializar API
+EJECUTAR EL APLICATIVO
 
-* verificar si se tiene nodeJS
-* ingresar a la carpeta APIrest desde el cmd o terminal
-* ejecutar el comando npm start
+paso 1 :Abrimos nuestro editor de codigo preferido y miramos que se encuentre conectado con la terminal(IOS) o cmd(MAC) dependiendo del sistema operativo que uses.
+paso 2: verificar que se tenga los componentes necesarios, tener encuenta que debemos instalar los modulos ya que no se subieron (npm install)
+paso 3: abrimos nuestro proyecto.
+paso 4: ejecutamos el comando ng serve para ejecutar ng serve -o para ejecutar el servidor y abrirlo automaticamente en el navegador
 
-inicializar DB
 
-* verificar que se tenga SQL server
-* descargar el archivo que se encuentra en la carpeta db "script.sql"
-* ejecutar el script.sql
-* verificar que en la configuracoin de sql server tenga habilitados los protocoles TCP/IP
+
+Ejecutar API
+
+paso 1: ingresar a la carpeta API desde el cmd o terminal
+paso 2: ingresamos el comando npm start para ejecutar el API
+
+
+
+EJECUTAR LA BASE DE DATOS
+
+Paso 1: ejecuta el archivo sql que se encuentra en la carpeta db del repositorio 
+Paso 2: tener en cuenta la configuracion de los protocoles TCP/IP para no tener inconvenientes al ejecutar la base de datos.
+
+
 
 
 Adicional, hay un video agregado donde se demuestra el funcionamiento del aplicativo.
